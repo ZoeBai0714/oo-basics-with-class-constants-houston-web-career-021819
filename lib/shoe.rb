@@ -14,7 +14,7 @@ class Shoe
   end
   
   def brand
-    BRANDS.uniq!.size
+    BRANDS.uniq!
   end
 
 end
